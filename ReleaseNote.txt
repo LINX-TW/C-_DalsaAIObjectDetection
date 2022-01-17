@@ -1,0 +1,26 @@
+=================================================================================
+LINX Taiwan Co., Ltd.	C# RELEASE NOTES for AI OBJECT DETECTION
+=================================================================================
+Project Name				: C# Dalsa AI Object Detection
+Project Version				: 1.0
+Build Date					: 2022.01.17
+Builder						: Kevin Feng
+
+=================================================================================
+	|	|	|	|	SOFTWARE FIRMWARE	|	|	|	|
+=================================================================================
+Sapera LT SDK Version		: 8.61.01.2139
+Sapera Processing Version	: 9.30.01.1404
+
+=================================================================================
+	|	|	|	|	FEATURES ADDED/MODIFY	|	|	|	|
+=================================================================================
+VERSION 1.0:
+- Initial release
+- Add " Main function " for detecting target image using an astrocyte model and draw bounding boxes and class names on the resulting image.
+- Add " AI_ObjectDetection_Build " for building AI Object Detection.
+- Add " AI_ObjectDetection_Load " for loading AI Object Detection from the modelFilename (*.mod).
+- Add " AI_ObjectDetection_Process " for using AI Object Detection to execute the target image.
+- Add " SaperaBufferToCProImage " for transfering Sapera Buffer to CProImage Buffer.
+- Add " DrawResult " for drawing the bounding box and class in the distnation image.
+
